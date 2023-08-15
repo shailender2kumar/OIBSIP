@@ -1,0 +1,58 @@
+body{
+    background-color:rgba(128, 128, 128, 0.526);
+}
+div {
+    background-color: white;
+    /* border: 1px solid black; */
+    height: 1232px;
+    width: 1491px;
+    margin-left: 3px;
+    
+}
+#top{
+    /* border: 1px solid black; */
+    height:334px;
+    text-align:center ;
+    font-family: 'Noto Sans', sans-seris;
+    padding-top: 56px;
+    position: relative;
+    background-image: url("8.jfif");      
+}
+span{
+    font-size: 50px;
+    color: grey;
+}
+#bottom{
+    /* border: 1px solid black; */
+    height: 839px;
+    background-color: rgb(128, 128, 128);
+}
+#top button{
+    width: 112px;
+    padding: 9px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+}
+#bottom img{
+    height:213px;
+    width: 168px;
+    margin-top:1px;
+    border-radius: 17px;
+    display: inline-block;
+    margin-left:13px;
+    top:1px
+}
+#quete{
+    width: 363px;
+    height: 351px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 9px;
+    border-bottom-left-radius: 44px;
+    border-top-right-radius: 51px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline-block;
+}
+ 

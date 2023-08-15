@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>shailender portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color: white;
+            font-family: "Poppins" sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18,18,62);
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin:  0px 23px;
+            
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display:flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+        .firstsection >div{
+            width: 40%;
+        
+        }
+        .leftsection{
+             /*background-color: red; */
+            font-size: 3rem; 
+        }
+         .rightsection img{
+            width:80%;
+            margin:  50px 0;
+        } 
+        .purple{
+            color: purple;
+            
+        }
+        nav ul li .df{
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li .df:hover{
+            color:rgb(78, 78, 221);
+            text-decoration:underline;
+            font-size: 1.04rem; ;
+        }
+        .grey{
+            color: grey;
+        }
+        #sa{
+            padding-right: 20%;
+        }
+        #element{
+            color:purple;
+        }
+        .second{
+             max-width: 80vw;
+             margin: auto;
+             margin-top: 50px;
+             height: 1000px;
+        }
+        .second h1{
+            font: size 1.9 rem;
+        }
+       .second .box{
+            height: 2px;
+             width:1176px; 
+            background: rgb(255, 255, 255);
+            margin: 49px;
+            display: flex;  
+        }
+       .second .vertical{
+        height:93px;
+        width:1px;
+        background-color: white;
+         margin:0 95px;
+         margin-left: -1px;
+       } 
+       .second .vertical1{
+        height:93px;
+        width:1px;
+        background-color: white;
+         margin:0 95px;
+         margin-left: 289px;
+       } 
+       .vertical-title{
+        margin-top: 77px;
+        width: 136px;
+       }
+       .vertical-desc{
+        width: 170px;
+    margin-top: 20px;
+    color: grey;
+        
+       }
+       .image-top{
+        position: relative;
+        top: -15px;
+        width: 14px;
+        left: 4px;
+       }
+       footer{
+        width: 100%;
+        position: absolute;
+        background:linear-gradient(to right,#00093c,#2d0b00); 
+        bottom:-889px;
+        color:#fff;
+        padding: 100px 0 30px;
+        font-size: 13px;
+        line-height:20px;
+       }
+       .flexi{
+        width: 85%;
+        margin:auto;
+        display:flex;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+
+       }
+       .foot{
+        flex-basis: 25%;
+        padding: 10px;
+
+       }
+       .foot h3{
+        width:fit-content;
+        margin-bottom: 40px;
+        position: relative;
+       }
+       .email-id{
+        width:fit-content;
+        border-bottom:1px solid #ccc;
+        margin:20px 0;
+       }
+       ul .rr{
+        list-style: none;
+        margin-bottom: 12px;
+       }
+       ul .rr #ww{
+        text-decoration: none;
+       }
+
+
+       .leftsection .btn{
+        padding: 6px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    margin-left: 6px;
+    text-decoration: none;
+}
+.btn:hover{
+    box-shadow:2px 2px 2px 2px  green;
+    padding: 11px;
+    
+}    
+.portfolio-footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #00aced; /* Change to your preferred hover color */
+        }  
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left"> shailender's portfolio</div>   
+          <div class="right">
+            <ul>
+                <li> <a  href="/" class="df">home</a></li>
+               <li><a href="/" class="df">about</a></li>
+              <li> <a href="/"class="df"> services </a></li>
+               <li><a href="/"class="df">  project </a></li>
+              <li><a href="/"class="df">  contact me </a></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+           hi my name is <span class="purple">shailender</span> 
+          <div id="sa"> and I am a</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+           <button class="btn"onclick="window.open('https://github.com/shailender2kumar','_blank');"> visit Github</button>
+          </div>
+
+        </div>
+            <div class="rightsection">
+                <img src="imh.jpeg" style="height:294px; width:416px;">
+
+            </div>
+
+
+        </section>
+        <hr style="margin: 0;padding: 0;">
+        <section class=" second">
+            <div class="grey">what i done so far</div>
+          <h1>  Work experience</h1>
+            <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="html.png" alt="sg">
+                <div class="vertical-title">
+                    HTML Developer 
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat similique asperiores ipsam quae maiores labore, quo doloremque enim temporibus suscipit vero tempora voluptatem minima dignissimos tempore dolore, esse saepe molestiae?
+                </div>
+            </div>
+            <div class="vertical1">
+                <img class="image-top" src="css.png" alt="sg" >
+                <div class="vertical-title">
+                    CSS Developer
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat similique asperiores ipsam quae maiores labore, quo doloremque enim temporibus suscipit vero tempora voluptatem minima dignissimos tempore dolore, esse saepe molestiae?
+                </div></div>
+                <div class="vertical1">
+                    <img class="image-top" src="js.png" alt="sg">
+                    <div class="vertical-title">
+                        JS Developer 
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat similique asperiores ipsam quae maiores labore, quo doloremque enim temporibus suscipit vero tempora voluptatem minima dignissimos tempore dolore, esse saepe molestiae?
+                    </div></div>
+                    <div class="vertical1">
+                        <img class="image-top" src="python.jfif" alt="sg">
+                        <div class="vertical-title">
+                            Python Developer 
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat similique asperiores ipsam quae maiores labore, quo doloremque enim temporibus suscipit vero tempora voluptatem minima dignissimos tempore dolore, esse saepe molestiae?
+                        </div></div>
+            
+        </section>
+    </main>
+
+    <footer class="portfolio-footer">
+        <div class="footer-content">
+            <p>&copy; 2023 shailender. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <!-- Add more social media icons here -->
+            </div>
+        </div>
+    </footer>
+
+       
+
+        
+        
+
+    
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['web developer','problem solver','C++ developer'],
+      typeSpeed: 200
+    });
+  </script>
+</html>

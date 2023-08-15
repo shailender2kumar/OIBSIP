@@ -1,0 +1,85 @@
+ #ans{
+    padding-right: 30px;
+    margin-left: 78px;
+    letter-spacing: 3px;
+    border: white;
+    border-bottom: 1px solid;
+    float: right;
+    position: relative;
+    top: -13px;
+}
+ #ans option{
+    font-size: 14px;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 3px;
+
+}
+/* #cal{
+    border: 1px solid black;
+    width:400px;
+    height: 400px;
+    /* margin-top: 20px; 
+    display:flex;
+    justify-content: center;
+    
+} */
+body{
+    display: flex;
+    justify-content: center;
+    background-repeat:no-repeat;
+    background-color: yell;
+    background-color: yellow;
+
+}
+/*form{
+    position:relative;
+    top: 78px;
+
+
+
+} */
+.box{
+    width: 487px;
+    height: 436px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 50%;
+    border: 3px yellowgreen double
+    
+}
+#num{
+    border:white;
+    border-bottom: 1px solid black;
+    margin-left:9px
+
+}
+#num:focus{
+    border: white;
+}
+#box span{
+    margin-left: 2px;
+}
+
+#boxi{
+    margin-top: 63px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    text-align: center;
+    line-height: 29px;
+}
+#buti{
+    position: relative;
+    top: 41px;
+    left: 86px;
+    padding-left: 105px;
+    padding-right: 73px;
+    text-align: center;
+    letter-spacing: 13px;
+    background-color: #2bd1e2;
+}
+
+
+
+
+
